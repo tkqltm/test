@@ -18,7 +18,7 @@ public class LifeCycle : MonoBehaviour
         {
             Debug.Log("왼쪽으로 이동중");
         }
-        if (Input.GetKeyUp(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
             {
             Debug.Log("오른쪽으로 이동중");
             }
